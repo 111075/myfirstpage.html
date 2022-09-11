@@ -1,15 +1,26 @@
 body {
+  font-family: arial, helvetica, sans-serif;
     font-size: 14px;
     color: navy;
 }
-p {
+p {    letter-spacing: 0.5em;
+    word-spacing: 2em;
+    line-height: 1.5;
+    text-align: center;
     color: red;
 }
 
-a {
+a {    text-decoration: none;
     color: blue;
 }
-h1 {
+h1 {    font-size: 2em;
     color: #ffc;
     background-color: #009;
+}
+h2 {
+    font-size: 1.5em;
+}
+strong {
+    font-style: italic;
+    text-transform: uppercase;
 }
